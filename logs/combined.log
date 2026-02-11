@@ -1,0 +1,6 @@
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Feb/2026:15:05:16 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Feb/2026:15:05:41 +0000] \"GET / HTTP/1.1\" 200 15 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Feb/2026:15:05:52 +0000] \"GET / HTTP/1.1\" 200 15 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
