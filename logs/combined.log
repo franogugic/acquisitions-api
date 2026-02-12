@@ -153,3 +153,20 @@
 {"level":"info","message":"::1 - - [12/Feb/2026:15:19:22 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/api/auth/sign-in","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
 {"level":"info","message":"::1 - - [12/Feb/2026:15:19:22 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:08:01 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:08:31 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: frano5@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:19:08:43 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 105 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:09:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:09:31 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:10:02 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:10:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:11:02 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:11:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:12:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:12:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:13:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:13:33 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:14:03 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:19:14:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
