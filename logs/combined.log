@@ -170,3 +170,225 @@
 {"level":"info","message":"::1 - - [12/Feb/2026:19:13:33 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [12/Feb/2026:19:14:03 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [12/Feb/2026:19:14:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:07:03 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:11 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:14 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: frano5@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:27 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 105 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:07:34 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:37 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:49 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api/users","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:50 +0000] \"GET /api/users HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:54 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:07:56 +0000] \"GET / HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:08:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:08:34 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"ip":"::ffff:192.168.65.1","level":"warn","message":"Rate limit exceeded","path":"/","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:08:35 +0000] \"GET / HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:09:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acq!!!!!!","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:09:17 +0000] \"GET / HTTP/1.1\" 200 15 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:09:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:10:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:10:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:03 +0000] \"POST /api/users HTTP/1.1\" 404 149 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:11:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:07 +0000] \"GET /api/users HTTP/1.1\" 200 792 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 5","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:31 +0000] \"GET /api/users/5 HTTP/1.1\" 200 194 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 2","service":"acquisitions-api"}
+{"level":"info","message":"User frano@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:34 +0000] \"GET /api/users/2 HTTP/1.1\" 200 192 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"acquisitions-api"}
+{"level":"info","message":"User frano3@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:35 +0000] \"GET /api/users/1 HTTP/1.1\" 200 194 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:11:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 3","service":"acquisitions-api"}
+{"level":"info","message":"User frano2@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:37 +0000] \"GET /api/users/3 HTTP/1.1\" 200 195 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 4","service":"acquisitions-api"}
+{"level":"info","message":"User frano4@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:41 +0000] \"GET /api/users/4 HTTP/1.1\" 200 195 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:45 +0000] \"DELETE /api/users/4 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:48 +0000] \"DELETE /api/users/2 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:50 +0000] \"DELETE /api/users/3 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:52 +0000] \"DELETE /api/users/1 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:11:55 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:12:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:06 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:07 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:08 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:09 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:09 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:09 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:10 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:10 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:11 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:11 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:11 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:12 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:12 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:13 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:14 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:14 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:15 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:15 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:16 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:16 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:17 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:17 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:17 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:18 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:18 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:18 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:20 +0000] \"DELETE /api/users/3 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:22 +0000] \"DELETE /api/users/4 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:22 +0000] \"DELETE /api/users/2 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:23 +0000] \"DELETE /api/users/1 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:26 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:12:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:12:54 +0000] \"GET /api/users HTTP/1.1\" 200 792 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 5","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:13:00 +0000] \"GET /api/users/5 HTTP/1.1\" 200 194 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano5@gmail.com (user)","service":"acquisitions-api"}
+{"level":"warn","message":"Access denied for user frano5@gmail.com with role user. Required: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:13:04 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:13:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:13:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error Error creating user","service":"acquisitions-api","stack":"Error: Error creating user\n    at createUser (file:///app/src/services/auth.service.js:65:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signup (file:///app/src/controllers/auth.controller.js:19:18)"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:14:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 416 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:14:07 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User frano6@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:14:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 103 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:14:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano6@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 5","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"User frano5@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:14:52 +0000] \"DELETE /api/users/5 HTTP/1.1\" 200 112 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano6@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 4","service":"acquisitions-api"}
+{"level":"info","message":"User frano4@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"User frano4@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:14:57 +0000] \"DELETE /api/users/4 HTTP/1.1\" 200 113 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: frano6@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 6","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [12/Feb/2026:23:15:01 +0000] \"DELETE /api/users/6 HTTP/1.1\" 403 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:15:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:15:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:16:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:16:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:17:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:17:39 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:18:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:18:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:19:10 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:19:40 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:20:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:20:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:21:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:21:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:22:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:22:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:23:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:23:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:24:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Feb/2026:23:24:43 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
